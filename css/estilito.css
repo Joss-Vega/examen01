@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;   
+   }
+   #cabeza{
+       display: flex;
+   }
+   #negro{
+       background-color: black;
+       width: 620px;
+       height: 100px;
+   }
+   #plomo{
+       background-color: grey;
+       width: 1300px;
+       height: 100px;
+   }
+   #naranja{
+       background-color: rgb(255, 124, 1);
+       width: 620px;
+       height: 869px;
+   }
+   #white
+   {
+       background-color: rgb(255, 255, 255);
+       width: 1300px;
+       height: 869px;
+   }
+   #cajas{
+   display: flex;
+   }
+   #caja1{
+   border: grey 2px solid;
+   
+       width: 1200px;
+       height: 90px;
+       margin-left: 50PX;
+   }
+   #unodefor
+   {
+       border: grey 2px solid;
+    
+       width: 288px;
+       height: 90px;
+       margin-top: 10px;
+       margin-left: 50PX;
+   }
+   #dosdefor
+   {
+       border: grey 2px solid;
+   
+       width: 288px;
+       height: 90px;
+       margin-top: 10px;
+       margin-left: 15PX;
+   }
+   #tresdefor
+   {
+       border: grey 2px solid;
+    
+       width: 288px;
+       height: 90px;
+       margin-top: 10px;
+       margin-left: 15PX;
+   }
+   #fordefor
+   {
+       border: grey 2px solid;
+     
+       width: 288px;
+       height: 90px;
+       margin-top: 10px;
+       margin-left: 15PX;
+   }
+   #cajadefor{
+       display: flex;
+   }
+   #uno{
+       border: grey 2px solid;
+       margin-top: 10px;
+       margin-left: 50px;
+   
+   width: 400px;
+   height: 280px;
+   }
+   #dos{
+       border: grey 2px solid;
+       margin-top: 10px;
+       margin-left: 15px;
+   
+   width: 785px;
+   height: 280px;
+   }
+   #box{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+      text-align: center;
+      border: white 0.5px solid;
+      height: 100px;
+      width: 620px;
+  }
+   #dosboxes{
+       display: flex;
+   }
+   #largo{
+       border: grey 2px solid;
+       margin-top: 10px;
+       margin-left: 50px;
+   
+     width: 850px;
+     height: 280px;  
+   }
+   #cuadro{
+       border: grey 2px solid;
+       margin-top: 10px;
+       margin-left: 15px;
+     
+     width: 335px;
+     height: 280px;  
+   }
+   
+   #final {
+       display: flex;
+   }
+  

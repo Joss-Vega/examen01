@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam01</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+    <body>
+        <div>
+            <header class="cabecera">Post</header> 
+            <main>
+                <div class="container min">   
+                    <input type="text" class="caja1" id="titulo" placeholder="Titulo" required>
+                    <input type="text" class="caja" id="descripcion" placeholder="Descripcion" required>
+                    <button class="boton" onclick="registrar()">Agregar</button>
+                </div>
+                <div class="container max">
+                    <h1>Lista de Post</h1>
+                    <h2>_______</h2>
+                    <table id="table">
+                        <thead>
+                            <tr>
+                                <th>titulo</th>
+                                <th>descripcion</th>
+                                <th>Acción</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbd"></tbody>
+                    </table>
+                </div>
+            </main>
+        </div>
+            <script src="js/script.js"></script>
+    </body>
+    
+</html>
